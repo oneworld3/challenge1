@@ -9,7 +9,7 @@ import { WebDevTecService } from '../app/components/webDevTec/webDevTec.service'
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
 
-angular.module('myMessageFront', ['ui.router', 'ui.bootstrap', 'toastr'])
+angular.module('myMessageFront', ['ui.router', 'ui.bootstrap', 'toastr']) //myMessageFront, and the dependencies which are ui.router, bootstrap and toasr which shows us notification popups
   .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)
